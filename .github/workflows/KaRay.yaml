@@ -1,4 +1,4 @@
-name: CCC
+name: KaRay
 
 on:
     workflow_dispatch:
