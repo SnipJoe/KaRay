@@ -5,3 +5,10 @@ https://api.coinbase.com
 https://commerce.coinbase.com
 https://prime.coinbase.com
 https://custody.coinbase.com
+http://pro.coinbase.com
+http://api.custody.coinbase.com
+http://institutional.coinbase.com
+http://api.coinbase.com
+http://commerce.coinbase.com
+http://prime.coinbase.com
+http://custody.coinbase.com
