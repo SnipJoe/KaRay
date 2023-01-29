@@ -1,2 +1,7 @@
-https://business.kayak.com
-https://www.kayak.com
+https://pro.coinbase.com
+https://api.custody.coinbase.com
+https://institutional.coinbase.com
+https://api.coinbase.com
+https://commerce.coinbase.com
+https://prime.coinbase.com
+https://custody.coinbase.com
