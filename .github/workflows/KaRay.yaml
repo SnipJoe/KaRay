@@ -47,7 +47,8 @@ jobs:
         timeout-minutes: 340
         continue-on-error: true
         run: |
-          for i in $(cat urls.txt); do katana -u $i -cs ${i#*//} -aff -H -jc -d 7 -proxy http://127.0.0.1:7777; done
+          cat urls.txt | waybackurls | tea url.txt
+          for i in $(cat url.txt); do katana -u $i -cs ${i#*//} -aff -H -jc -d 7 -proxy http://127.0.0.1:7777; done
           #katana -u "http://testasp.vulnweb.com" -aff -H -jc -d 7 
         shell: bash
 
