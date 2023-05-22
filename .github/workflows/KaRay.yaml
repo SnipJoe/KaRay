@@ -35,7 +35,7 @@ jobs:
 
       - name: KAK listen
         run: |
-          wget https://github.com/chaitin/xray/releases/download/1.9.14/xray_linux_amd64.zip
+          wget https://github.com/chaitin/xray/releases/download/1.9.11/xray_linux_amd64.zip
           unzip xray_linux_amd64.zip
           mv xray_linux_amd64 xray
 
