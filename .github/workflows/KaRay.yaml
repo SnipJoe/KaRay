@@ -49,9 +49,9 @@ jobs:
         continue-on-error: true
         run: |
           #cat urls.txt | waybackurls | tee url.txt
-          #for i in $(cat url.txt); do katana -u $i -cs ${i#*//} -aff -H -jc -d 7 -proxy http://127.0.0.1:7777; done
+          for i in $(cat url.txt); do katana -u $i -cs ${i#*//} -aff -H -jc -d 7 -proxy http://127.0.0.1:7777; done
           #katana -u "http://testasp.vulnweb.com" -aff -H -jc -d 7 
-          for i in $(cat urls.txt); do echo $i | gau --proxy http://127.0.0.1:7777; done
+          #for i in $(cat urls.txt); do echo $i | gau --proxy http://127.0.0.1:7777; done
         shell: bash
 
       - name: Create local changes
